@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  round_id: 1
+  away_season_team_id: 1
+  home_season_team_id: 1
+  date: 2008-09-12
+  place: MyString
+
+two:
+  round_id: 1
+  away_season_team_id: 1
+  home_season_team_id: 1
+  date: 2008-09-12
+  place: MyString

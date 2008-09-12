@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  game_id: 1
+  home_score: 1
+  away_score: 1
+  forfait: false
+
+two:
+  game_id: 1
+  home_score: 1
+  away_score: 1
+  forfait: false
