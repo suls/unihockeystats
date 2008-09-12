@@ -6,4 +6,9 @@ class Group < ActiveRecord::Base
   has_many :rounds
   
   belongs_to :season_league
+  
+  def self.find_by_season_league_and_number(sl, num)
+    Group.find_by_number(num,
+                  :conditions => ["season_league_id = ?", sl])
+  end
 end
